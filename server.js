@@ -12,7 +12,7 @@ app.use(cors())
 
 
 dotenv.config(); 
-console.log("Token Bitly:", process.env.BITLY_TOKEN);
+
 
 app.use(express.json())
 
